@@ -1,18 +1,7 @@
-# GSF-IQA: No-reference image quality assessment with global statistical features
-**Paper title**: No-reference image quality assessment with global statistical features<br/><br/>
-**Abstract**: The perceptual quality of digital images is often deteriorated during storage, compression, and transmission. The most reliable way of assessing image quality is to ask people to provide their opinions on a number of test images. However, this is an expensive and time-consuming process which cannot be applied in real-time systems. In this study, a novel no-reference image quality assessment method is proposed. The introduced method uses a set of novel quality-aware features which globally characterizes the statistics of a given test image, such as extended local fractal dimension distribution feature, extended first digit distribution features using different domains, Bilaplacian features, image moments, and a wide variety of perceptual features. Experimental results are demonstrated on five publicly available benchmark image quality assessment databases: CSIQ, MDID, KADID-10k, LIVE In the Wild, and KonIQ-10k.<br/><br/>
+# DF-CNN-IQA: No-Reference Image Quality Assessment with Convolutional Neural Networks and Decision Fusion 
+**Paper title**: No-Reference Image Quality Assessment with Convolutional Neural Networks and Decision Fusion <br/><br/>
+**Abstract**: No-reference image quality assessment (NR-IQA) has always been a difficult research problem because digital images may suffer very diverse types of distortions and their contents are extremely various. Moreover, IQA is also a very hot topic in the research community since the number and role of digital images in everyday life is continuously growing. Recently, a huge amount of effort has been devoted to exploiting convolutional neural networks and other deep learning techniques for no-reference image quality assessment. Since deep learning relies on a massive amount of labeled data, utilizing pretrained networks has become very popular in the literature. In this study, we introduce a novel, deep learning-based NR-IQA architecture that relies on the decision fusion of multiple image quality scores coming from different types of convolutional neural networks. The main idea behind this scheme is that a diverse set of different types of networks is able to better characterize authentic image distortions than a single network. The experimental results show that our method can effectively estimate perceptual image quality on four large IQA benchmark databases containing either authentic or artificial distortions. These results are also confirmed in significance and cross database tests. <br/><br/>
 
 ## Cite
 If you use this code, please cite the following paper:
-```
-@article{varga2021no,
-  title={No-Reference Image Quality Assessment with Global Statistical Features},
-  author={Varga, Domonkos},
-  journal={Journal of Imaging},
-  volume={7},
-  number={2},
-  pages={29},
-  year={2021},
-  publisher={Multidisciplinary Digital Publishing Institute}
-}
-```
+
