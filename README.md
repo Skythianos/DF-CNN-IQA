@@ -4,4 +4,17 @@
 
 ## Cite
 If you use this code, please cite the following paper:
+```
+@article{varga2022no,
+  title={No-Reference Image Quality Assessment with Convolutional Neural Networks and Decision Fusion},
+  author={Varga, Domonkos},
+  journal={Applied Sciences},
+  volume={12},
+  number={1},
+  pages={101},
+  year={2022},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+```
+
 
